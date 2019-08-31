@@ -18,15 +18,16 @@ fs.readdir("./commands/", (err, files) => {
   });
 });
 
-client.on("ready", () => require("./events/ready.js")(client));
-client.on("message", msg => require("./events/message.js")(client, msg));
-client.on("guildMemberAdd", member => {
-  require("./events/guildMemberAdd.js")(client, member);
+fs.readdir("./events/", (err, files) => {
+  if (err) return console.error;
+  files.forEach(file => {
+    if (!file.endsWith(".js")) return undefined;
+    const event = require(`./events/${file}`);
+    const eventName = file.split(".")[0];
+    console.log(`Évènement ${eventName} chargé.`);
+    client.on(eventName, event.bind(null, event));
+  });
 });
-client.on("guildCreate", guild => {
-  require("./events/guildCreate.js")(client, guild);
-});
-
 
 client.mongoose.init();
 client.login(TOKEN);
