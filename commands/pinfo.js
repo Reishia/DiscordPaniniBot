@@ -1,6 +1,6 @@
 const { MessageEmbed } = require("discord.js");
-const pLL = require("../util/playersLaLiga");
-const pSA = require("../util/playersSerieA");
+const pLL = require("../players/playersLaLigaiga");
+const pSA = require("../players/playersSerieAieA");
 
 exports.run = (client, message, args) => {
   let playerChecked = Boolean(false);
@@ -36,9 +36,8 @@ exports.run = (client, message, args) => {
       message.channel.send("Le joueur que vous recherchez n'existe pas (ou n'est pas encore dans la base de données.)");
     }
   }
-  message.delete();
 };
 
 exports.help = {
-  name: "info"
+  name: "view"
 };
