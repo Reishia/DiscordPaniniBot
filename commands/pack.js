@@ -1,4 +1,4 @@
-const { MessageEmbed } = require("discord.js");
+/* const { MessageEmbed } = require("discord.js");
 const players = require("../util/playerlist").default;
 const fs = require("fs");
 
@@ -98,4 +98,4 @@ exports.run = (client, message, args, settings) => {
 
 exports.help = {
   name: "pack"
-};
+}; */
