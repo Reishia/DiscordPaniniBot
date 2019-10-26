@@ -15,7 +15,7 @@ exports.run = (client, message, args) => {
           .addField("Âge :", players[i].age)
           .addField("Club actuel :", players[i].club)
           .addField("Position :", players[i].position)
-          .addField("Nationalité :", players[i].nation)
+          .addField("Pays d'origine :", players[i].nation)
           .setImage(players[i].image)
           .setTimestamp();
   
@@ -25,10 +25,10 @@ exports.run = (client, message, args) => {
     }
   }
   if (args[0] !== "") {
-    if (args[0] === "1") {
+    if (args[0] === "ESP1") {
       players = pLL;
       Search();
-    } else if (args[0] === "2") {
+    } else if (args[0] === "ITA2") {
       players = pSA;
       Search();
     }

@@ -3,7 +3,7 @@ var playersLaLiga = [{
   name: "L.Messi",
   age: 32,
   position: "RW",
-  nation: "Argentina",
+  nation: "Argentine",
   club: "FC Barcelone",
   image: "https://cdn.sofifa.org/players/10/19/158023.png" 
 },
