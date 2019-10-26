@@ -27,9 +27,10 @@ exports.run = (client, message, args) => {
   if (args[0] !== "") {
     if (args[0] === 1) {
       players = pLL;
-      Search()
+      Search();
     } else if (args[0] === 2) {
       players = pSA;
+      Search();
     }
     if (playerChecked === false) {
       message.channel.send("Le joueur que vous recherchez n'existe pas (ou n'est pas encore dans la base de données.)");
