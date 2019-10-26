@@ -9,7 +9,7 @@ exports.run = (client, message) => {
   
   fs.writeFile("./money.json", JSON.stringify(client.money, null, null), err => {
     if (err) throw err;
-    message.channel.send(`Bienvenue sur FootCollection ${message.author}. Je te souhaite une bonne chasse !`);
+    message.channel.send(`Bienvenue sur FootCollection ${message.author}. Je te souhaite bonne chance !`);
   });
   message.delete();
 };
