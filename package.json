@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Projet Discord",
   "main": "main.js",
+  "engines": {
+    "node": "10.16.3"
+  },
   "repository": "git@github.com:Reishia/DiscordPaniniBot",
   "author": "Reishia <alrerfr@gmail.com>",
   "license": "MIT",
@@ -36,5 +39,8 @@
       "no-eval": "off",
       "no-var": "off"
     }
+  },
+  "scripts": {
+    "start": "node main.js"
   }
 }

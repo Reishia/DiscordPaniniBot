@@ -1,5 +1,4 @@
 const { Client, Collection } = require("discord.js");
-const { TOKEN } = require("./config");
 const client = new Client({ disableEveryone: true });
 const fs = require("fs");
 
