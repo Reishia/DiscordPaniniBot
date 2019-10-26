@@ -25,10 +25,10 @@ exports.run = (client, message, args) => {
     }
   }
   if (args[0] !== "") {
-    if (args[0] === 1) {
+    if (args[0] === "1") {
       players = pLL;
       Search();
-    } else if (args[0] === 2) {
+    } else if (args[0] === "2") {
       players = pSA;
       Search();
     }
