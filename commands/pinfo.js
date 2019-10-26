@@ -1,6 +1,7 @@
 const { MessageEmbed } = require("discord.js");
 const pLL = require("../players/playersLaLiga");
 const pSA = require("../players/playersSerieA");
+const pBu = require("../players/playersBundesliga");
 
 exports.run = (client, message, args) => {
   let playerChecked = Boolean(false);
@@ -24,11 +25,15 @@ exports.run = (client, message, args) => {
       }
     }
   }
+
   if (args[0] !== "") {
-    if (args[0] === "ESP1") {
+    if (args[0] === "ALL1") {
+      players = pBu;
+      Search();
+    } else if (args[0] === "ESP1") {
       players = pLL;
       Search();
-    } else if (args[0] === "ITA2") {
+    } else if (args[0] === "ITA1") {
       players = pSA;
       Search();
     }
@@ -39,5 +44,5 @@ exports.run = (client, message, args) => {
 };
 
 exports.help = {
-  name: "view"
+  name: "pinfo"
 };
