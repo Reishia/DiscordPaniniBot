@@ -27,6 +27,6 @@ fs.readdir("./commands/", async (err, files) => {
   });
 });
 
-client.login(TOKEN);
+client.login(process.env.TOKEN);
 client.on("error", console.error);
 client.on("warn", console.warn);
