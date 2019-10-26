@@ -1,6 +1,6 @@
 const { MessageEmbed } = require("discord.js");
-const pLL = require("../players/playersLaLigaiga");
-const pSA = require("../players/playersSerieAieA");
+const pLL = require("../players/playersLaLiga");
+const pSA = require("../players/playersSerieA");
 const fs = require("fs");
 
 exports.run = (client, message, args) => {
