@@ -4,7 +4,8 @@ var playersPremierLeague = [{
   age: 27,
   position: "GB",
   nation: "Allemagne",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/192563.png"
 },
 {  
   id: "2", 
@@ -12,7 +13,8 @@ var playersPremierLeague = [{
   age: 21,
   position: "DD",
   nation: "Angleterre",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/225782.png"
 },
 {  
   id: "3", 
@@ -20,7 +22,8 @@ var playersPremierLeague = [{
   age: 31,
   position: "DCD",
   ntion: "Grèce",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/172879.png"
 },
 {  
   id: "4", 
@@ -28,7 +31,8 @@ var playersPremierLeague = [{
   age: 32,
   position: "DCG",
   nation: "Brésil",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/179944.png"
 },
 {  
   id: "5", 
@@ -36,7 +40,8 @@ var playersPremierLeague = [{
   age: 26,
   position: "DG",
   nation: "Bosnie-Herzégovine",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/207993.png"
 },
 {  
   id: "6", 
@@ -44,7 +49,8 @@ var playersPremierLeague = [{
   age: 20,
   position: "MDD",
   nation: "France",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/236496.png"
 },
 {  
   id: "7", 
@@ -52,7 +58,8 @@ var playersPremierLeague = [{
   age: 26,
   position: "MDG",
   nation: "Suisse ",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/199503.png"
 },
 {
   
@@ -61,7 +68,8 @@ var playersPremierLeague = [{
   age: 24,
   position: "MD",
   nation: "Côte d'Ivoire",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/226110.png"
 },
 
 {
@@ -70,7 +78,8 @@ var playersPremierLeague = [{
   age: 30,
   position: "MG",
   nation: "Gabon",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/188567.png"
 },
 
 {
@@ -79,16 +88,18 @@ var playersPremierLeague = [{
   age: 22,
   position: "MOC",
   nation: "Espagne",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/222509.png"
 },
 
 {
   id: "11 ", 
   name: "A.Lacazette",
-  age: 24,
+  age: 28,
   position: "BU",
   nation: "France",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/193301.png"
 },
 
 {
@@ -97,191 +108,197 @@ var playersPremierLeague = [{
   age: 19,
   position: "AD",
   nation: "Angleterre",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/231448.png"
 },
-
-
 {
   id: "13", 
   name: "G.Martinelli",
-  age: 24,
+  age: 18,
   position: "AG",
   nation: "Brésil",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/251566.png"
 },
-
-
 {
   id: "14", 
   name: "M.Ozil",
   age: 30,
   position: "MOC",
   nation: "Allemagne",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/176635.png"
 },
-
 {
   id: "15", 
   name: "L.Torreira",
   age: 23,
   position: "MDC",
   nation: "Uruguay",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/223959.png"
 },
-
 {
   id: "16", 
   name: "C.Chambers",
   age: 24,
   position: "MDC",
   nation: "Angleterre ",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/205989.png"
 },
-
 {
   id: "17", 
   name: "J.Willock",
   age: 19,
   position: "MC",
   nation: "Angleterre",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/237329.png"
 },
-
 {
   id: "18", 
   name: "E.Martinez",
   age: 26,
   position: "GB",
   nation: "Argentine",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/202811.png"
 },
-
 {
   id: "19", 
   name: "R.Holding",
   age: 23,
   position: "DC",
   nation: "Angleterre",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/228295.png"
 },
-
 {
   id: "20", 
   name: "H.Bellerin",
   age: 24,
   position: "DD",
   nation: "Espagne",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/203747.png"
 },
-
 {
   id: "21", 
-  name: "K. Tierney",
+  name: "K.Tierney",
   age: 22,
   position: "DG",
   nation: "Écosse",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/226491.png"
 },
-
 {
   id: "21", 
   name: "K.Mavropanos",
   age: 21,
   position: "DC",
   nation: "Grèce",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/242000.png"
 },
-
 {
   id: "22", 
   name: "S.Mustafi",
   age: 27,
   position: "DC",
   nation: "Allemagne",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/192227.png"
 },
-
 {
   id: "23", 
   name: "B.Saka",
   age: 17,
   position: "MG",
   nation: "Angleterre",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/246669.png"
 },
-
 {
   id: "24", 
   name: "E.Smith Rowe",
   age: 18,
   position: "AG",
   nation: "Angleterre",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/240273.png"
 },
-
 {
   id: "25", 
   name: "Z.Medley ",
+  age: 18,
+  position: "GB",
+  nation: "Angleterre",
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/240334.png"
+},
+{
+  id: "26", 
+  name: "M.Macey",
   age: 24,
   position: "GB",
   nation: "Angleterre",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/213407.png"
 },
-
 {
-  id: "26", 
+  id: "27", 
   name: "T.John-Jules",
   age: 18,
   position: "BU",
   nation: "Angleterre",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/242710.png"
 },
-
 {
-  id: "27", 
+  id: "28", 
   name: "R.Burton",
   age: 19,
   position: "MOC",
   nation: "Pays de Galles",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/244200.png"
 },
-
 {
-  id: "28", 
+  id: "29", 
   name: "J.Olayinka",
   age: 18,
   position: "MC",
   nation: "Angleterre",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/247166.png"
 },
-
 {
-  id: "29", 
+  id: "30", 
   name: " T.Bola",
   age: 20,
   position: "DG",
   nation: "Angleterre",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/233441.png"
 },
-
-{
-  
-  id: "30", 
+{  
+  id: "31", 
   name: "F.Balogun",
   age: 17,
   position: "BU",
   nation: "Angleterre",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/247463.png"
 },
-
-{
-  
-  id: "31", 
+{  
+  id: "32", 
   name: "J.Olowu",
-  age: 17,
+  age: 19,
   position: "DC",
   nation: "Angleterre",
-  club: "Arsenal"
+  club: "Arsenal",
+  image: "https://cdn.sofifa.org/players/4/20/241864.png"
 }];
 
 module.exports = playersPremierLeague;
