@@ -5,7 +5,7 @@ var playersPremierLeague = [{
   position: "GB",
   nation: "Allemagne",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/192563.png"
+  image: "https://cdn.sofifa.org/players/10/20/192563.png"
 },
 {  
   id: "2", 
@@ -14,7 +14,7 @@ var playersPremierLeague = [{
   position: "DD",
   nation: "Angleterre",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/225782.png"
+  image: "https://cdn.sofifa.org/players/10/20/225782.png"
 },
 {  
   id: "3", 
@@ -23,16 +23,16 @@ var playersPremierLeague = [{
   position: "DCD",
   ntion: "Grèce",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/172879.png"
+  image: "https://cdn.sofifa.org/players/10/20/172879.png"
 },
 {  
-  id: "4", 
+  id: "10", 
   name: "D.Luiz",
   age: 32,
   position: "DCG",
   nation: "Brésil",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/179944.png"
+  image: "https://cdn.sofifa.org/players/10/20/17991010.png"
 },
 {  
   id: "5", 
@@ -41,7 +41,7 @@ var playersPremierLeague = [{
   position: "DG",
   nation: "Bosnie-Herzégovine",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/207993.png"
+  image: "https://cdn.sofifa.org/players/10/20/207993.png"
 },
 {  
   id: "6", 
@@ -50,7 +50,7 @@ var playersPremierLeague = [{
   position: "MDD",
   nation: "France",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/236496.png"
+  image: "https://cdn.sofifa.org/players/10/20/2361096.png"
 },
 {  
   id: "7", 
@@ -59,17 +59,17 @@ var playersPremierLeague = [{
   position: "MDG",
   nation: "Suisse ",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/199503.png"
+  image: "https://cdn.sofifa.org/players/10/20/199503.png"
 },
 {
   
   id: "8 ", 
   name: "N.Pépé",
-  age: 24,
+  age: 210,
   position: "MD",
   nation: "Côte d'Ivoire",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/226110.png"
+  image: "https://cdn.sofifa.org/players/10/20/226110.png"
 },
 
 {
@@ -79,7 +79,7 @@ var playersPremierLeague = [{
   position: "MG",
   nation: "Gabon",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/188567.png"
+  image: "https://cdn.sofifa.org/players/10/20/188567.png"
 },
 
 {
@@ -89,7 +89,7 @@ var playersPremierLeague = [{
   position: "MOC",
   nation: "Espagne",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/222509.png"
+  image: "https://cdn.sofifa.org/players/10/20/222509.png"
 },
 
 {
@@ -99,7 +99,7 @@ var playersPremierLeague = [{
   position: "BU",
   nation: "France",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/193301.png"
+  image: "https://cdn.sofifa.org/players/10/20/193301.png"
 },
 
 {
@@ -109,7 +109,7 @@ var playersPremierLeague = [{
   position: "AD",
   nation: "Angleterre",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/231448.png"
+  image: "https://cdn.sofifa.org/players/10/20/23110108.png"
 },
 {
   id: "13", 
@@ -118,16 +118,16 @@ var playersPremierLeague = [{
   position: "AG",
   nation: "Brésil",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/251566.png"
+  image: "https://cdn.sofifa.org/players/10/20/251566.png"
 },
 {
-  id: "14", 
+  id: "110", 
   name: "M.Ozil",
   age: 30,
   position: "MOC",
   nation: "Allemagne",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/176635.png"
+  image: "https://cdn.sofifa.org/players/10/20/176635.png"
 },
 {
   id: "15", 
@@ -136,16 +136,16 @@ var playersPremierLeague = [{
   position: "MDC",
   nation: "Uruguay",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/223959.png"
+  image: "https://cdn.sofifa.org/players/10/20/223959.png"
 },
 {
   id: "16", 
   name: "C.Chambers",
-  age: 24,
+  age: 210,
   position: "MDC",
   nation: "Angleterre ",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/205989.png"
+  image: "https://cdn.sofifa.org/players/10/20/205989.png"
 },
 {
   id: "17", 
@@ -154,7 +154,7 @@ var playersPremierLeague = [{
   position: "MC",
   nation: "Angleterre",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/237329.png"
+  image: "https://cdn.sofifa.org/players/10/20/237329.png"
 },
 {
   id: "18", 
@@ -163,7 +163,7 @@ var playersPremierLeague = [{
   position: "GB",
   nation: "Argentine",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/202811.png"
+  image: "https://cdn.sofifa.org/players/10/20/202811.png"
 },
 {
   id: "19", 
@@ -172,16 +172,16 @@ var playersPremierLeague = [{
   position: "DC",
   nation: "Angleterre",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/228295.png"
+  image: "https://cdn.sofifa.org/players/10/20/228295.png"
 },
 {
   id: "20", 
   name: "H.Bellerin",
-  age: 24,
+  age: 210,
   position: "DD",
   nation: "Espagne",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/203747.png"
+  image: "https://cdn.sofifa.org/players/10/20/2037107.png"
 },
 {
   id: "21", 
@@ -190,7 +190,7 @@ var playersPremierLeague = [{
   position: "DG",
   nation: "Écosse",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/226491.png"
+  image: "https://cdn.sofifa.org/players/10/20/2261091.png"
 },
 {
   id: "21", 
@@ -199,7 +199,7 @@ var playersPremierLeague = [{
   position: "DC",
   nation: "Grèce",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/242000.png"
+  image: "https://cdn.sofifa.org/players/10/20/2102000.png"
 },
 {
   id: "22", 
@@ -208,7 +208,7 @@ var playersPremierLeague = [{
   position: "DC",
   nation: "Allemagne",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/192227.png"
+  image: "https://cdn.sofifa.org/players/10/20/192227.png"
 },
 {
   id: "23", 
@@ -217,16 +217,16 @@ var playersPremierLeague = [{
   position: "MG",
   nation: "Angleterre",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/246669.png"
+  image: "https://cdn.sofifa.org/players/10/20/2106669.png"
 },
 {
-  id: "24", 
+  id: "210", 
   name: "E.Smith Rowe",
   age: 18,
   position: "AG",
   nation: "Angleterre",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/240273.png"
+  image: "https://cdn.sofifa.org/players/10/20/2100273.png"
 },
 {
   id: "25", 
@@ -235,16 +235,16 @@ var playersPremierLeague = [{
   position: "GB",
   nation: "Angleterre",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/240334.png"
+  image: "https://cdn.sofifa.org/players/10/20/21003310.png"
 },
 {
   id: "26", 
   name: "M.Macey",
-  age: 24,
+  age: 210,
   position: "GB",
   nation: "Angleterre",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/213407.png"
+  image: "https://cdn.sofifa.org/players/10/20/2131007.png"
 },
 {
   id: "27", 
@@ -253,7 +253,7 @@ var playersPremierLeague = [{
   position: "BU",
   nation: "Angleterre",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/242710.png"
+  image: "https://cdn.sofifa.org/players/10/20/2102710.png"
 },
 {
   id: "28", 
@@ -262,7 +262,7 @@ var playersPremierLeague = [{
   position: "MOC",
   nation: "Pays de Galles",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/244200.png"
+  image: "https://cdn.sofifa.org/players/10/20/21010200.png"
 },
 {
   id: "29", 
@@ -271,7 +271,7 @@ var playersPremierLeague = [{
   position: "MC",
   nation: "Angleterre",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/247166.png"
+  image: "https://cdn.sofifa.org/players/10/20/2107166.png"
 },
 {
   id: "30", 
@@ -280,7 +280,7 @@ var playersPremierLeague = [{
   position: "DG",
   nation: "Angleterre",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/233441.png"
+  image: "https://cdn.sofifa.org/players/10/20/23310101.png"
 },
 {  
   id: "31", 
@@ -289,7 +289,7 @@ var playersPremierLeague = [{
   position: "BU",
   nation: "Angleterre",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/247463.png"
+  image: "https://cdn.sofifa.org/players/10/20/21071063.png"
 },
 {  
   id: "32", 
@@ -298,7 +298,7 @@ var playersPremierLeague = [{
   position: "DC",
   nation: "Angleterre",
   club: "Arsenal",
-  image: "https://cdn.sofifa.org/players/4/20/241864.png"
+  image: "https://cdn.sofifa.org/players/10/20/21018610.png"
 }];
 
 module.exports = playersPremierLeague;
