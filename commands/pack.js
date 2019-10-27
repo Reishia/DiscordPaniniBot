@@ -1,6 +1,8 @@
 const { MessageEmbed } = require("discord.js");
 const pLL = require("../players/playersLaLiga");
 const pSA = require("../players/playersSerieA");
+const pBu = require("../players/playersBundesliga");
+const pPL = require("../players/playersPremierLeague");
 const fs = require("fs");
 
 exports.run = (client, message, args) => {
@@ -13,11 +15,15 @@ exports.run = (client, message, args) => {
   }
 
   // Détermination de la ligue du joueur packé
-  const playerLeague = entierAleatoire(1, 2);
+  const playerLeague = entierAleatoire(1, 4);
   if (playerLeague === 1) {
     players = pLL;
   } else if (playerLeague === 2) {
     players = pSA;
+  } else if (playerLeague === 3) {
+    players = pBu;
+  } else if (playerLeague === 4) {
+    players = pPL;
   }
 
   // Détermination du joueur packé

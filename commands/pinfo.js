@@ -2,6 +2,7 @@ const { MessageEmbed } = require("discord.js");
 const pLL = require("../players/playersLaLiga");
 const pSA = require("../players/playersSerieA");
 const pBu = require("../players/playersBundesliga");
+const pPL = require("../players/playersPremierLeague");
 
 exports.run = (client, message, args) => {
   let playerChecked = Boolean(false);
@@ -29,6 +30,9 @@ exports.run = (client, message, args) => {
   if (args[0] !== "") {
     if (args[0] === "ALL1") {
       players = pBu;
+      Search();
+    } else if (args[0] === "ENG1") {
+      players = pPL;
       Search();
     } else if (args[0] === "ESP1") {
       players = pLL;
