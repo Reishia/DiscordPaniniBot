@@ -14,7 +14,11 @@ exports.run = (client, message) => {
   } else {
     const embed = new MessageEmbed()
       .setTitle("Récompense journalière")
-      .addField("", `Vous avez déjà récupéré votre recompense pour aujourd'hui ! Revenez dans ${moment().endOf("day").fromNow()}`);
+      .addField("", `Vous avez déjà récupéré votre recompense pour aujourd'hui ! Revenez ${moment().endOf("day").fromNow()}`);
     message.channel.send(embed);    
   }
+};
+
+exports.help = {
+  name: "daily"
 };
