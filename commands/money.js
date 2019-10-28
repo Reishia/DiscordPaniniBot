@@ -4,7 +4,7 @@ exports.run = (client, message) => {
   client.money = require("../userData.json");
   const embed = new MessageEmbed()
     .setTitle(`Compte de ${message.author.id}`)
-    .addTitle("Solde du compte", `${client.money[message.author.id].money}`);
+    .addField("Solde du compte", `${client.money[message.author.id].money}`);
   message.channel.send(embed);
 };
 
