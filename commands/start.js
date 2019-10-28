@@ -3,7 +3,7 @@ const fs = require("fs");
 
 exports.run = (client, message) => { 
   client.money = require("../storage/userData.json");
-  client.list = require("../storage/userPLayersList.json");
+  client.list = require("../storage/userPlayersList.json");
   client.money[message.author.id] = {
     money: 0,
     lastDaily: "None"

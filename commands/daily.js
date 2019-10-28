@@ -14,7 +14,7 @@ exports.run = (client, message) => {
   } else {
     const embed = new MessageEmbed()
       .setTitle("Récompense journalière")
-      .addField("Pas si vite petit chenapan !", `Vous avez déjà récupéré votre recompense pour aujourd'hui ! Revenez ${moment().endOf("day").fromNow()}`);
+      .addField("Pas si vite petit chenapan !", `Vous avez déjà récupéré votre recompense pour aujourd'hui ! Revenez ${moment().endOf("day").fromNow()}.`);
     message.channel.send(embed);    
   }
 };
