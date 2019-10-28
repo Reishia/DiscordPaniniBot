@@ -31,7 +31,7 @@ exports.run = (client, message, args) => {
     if (args[0] === "ALL1") {
       players = pBu;
       Search();
-    } else if (args[0] === "ENG1") {
+    } else if (args[0] === "ANG1") {
       players = pPL;
       Search();
     } else if (args[0] === "ESP1") {

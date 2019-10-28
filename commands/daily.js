@@ -2,7 +2,7 @@ const moment = require("moment");
 const { MessageEmbed } = require("discord.js");
 
 exports.run = (client, message) => {
-  client.daily = require("../userData.json");
+  client.daily = require("../storage/userData.json");
   // eslint-disable-next-line no-negated-condition
   if (client.daily[message.author.id].lastDaily !== moment().format("L")) {
     client.daily[message.author.id].lastDaily = moment().format("L");
