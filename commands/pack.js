@@ -6,7 +6,7 @@ const pPL = require("../players/playersPremierLeague");
 const fs = require("fs");
 
 exports.run = (client, message, args) => {
-  client.money = require("../money.json");
+  client.money = require("../userData.json");
   let _money = 0;
   let players = [0];
 
@@ -43,7 +43,7 @@ exports.run = (client, message, args) => {
         money: _money
       };
 
-      fs.writeFile("./money.json", JSON.stringify(client.money, null, null), err => {
+      fs.writeFile("./userData.json", JSON.stringify(client.money, null, null), err => {
         if (err) throw err;
         message.channel.send(`${price}$ vous ont été débité ! Vous avez maintenant ${_money}$`);
       });
@@ -51,7 +51,7 @@ exports.run = (client, message, args) => {
   }
 
   if (args[0] === "base") {
-    achat(1000);
+    achat(500);
   }
 };
 
