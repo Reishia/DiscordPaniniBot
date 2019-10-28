@@ -42,6 +42,7 @@ exports.run = (client, message, args) => {
     } else {
       const embed = new MessageEmbed()
         .setTitle(players[PID].name)
+        .addField("Club :", `${players[PID].club}`)
         .setImage(players[PID].image);
       message.channel.send(embed);
       _money -= price;
