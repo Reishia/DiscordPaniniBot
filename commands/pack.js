@@ -46,7 +46,7 @@ exports.run = (client, message, args) => {
       }
       client.money[message.author.id] = {
         money: _money,
-        list: client.money[message.author.id].list.push({ id: _id, playerID: PID, pLeague: playerLeague })
+        list: client.money[message.author.id].list.push([{ id: _id, playerID: PID, pLeague: playerLeague }])
       };
 
       fs.writeFile("./storage/userData.json", JSON.stringify(client.money, null, null), err => {
