@@ -3,6 +3,8 @@ const pLL = require("../players/playersLaLiga");
 const pSA = require("../players/playersSerieA");
 const pBu = require("../players/playersBundesliga");
 const pPL = require("../players/playersPremierLeague");
+const pL1 = require("../players/playersLigue1");
+const pEr = require("../players/playersEredivisie");
 const fs = require("fs");
 
 exports.run = (client, message, args) => {
@@ -25,6 +27,10 @@ exports.run = (client, message, args) => {
     players = pBu;
   } else if (playerLeague === 4) {
     players = pPL;
+  } else if (playerLeague === 5) {
+    players = pL1;
+  } else if (playerLeague === 6) {
+    players = pEr;
   }
 
   // Détermination du joueur packé

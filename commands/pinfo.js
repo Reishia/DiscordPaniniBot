@@ -3,6 +3,8 @@ const pLL = require("../players/playersLaLiga");
 const pSA = require("../players/playersSerieA");
 const pBu = require("../players/playersBundesliga");
 const pPL = require("../players/playersPremierLeague");
+const pL1 = require("../players/playersLigue1");
+const pEr = require("../players/playersEredivisie");
 
 exports.run = (client, message, args) => {
   let playerChecked = Boolean(false);
@@ -37,8 +39,14 @@ exports.run = (client, message, args) => {
     } else if (args[0] === "ESP1") {
       players = pLL;
       Search();
+    } else if (args[0] === "FRA1") {
+      players = pL1;
+      Search();
     } else if (args[0] === "ITA1") {
       players = pSA;
+      Search();
+    } else if (args[0] === "NED1") {
+      players = pEr;
       Search();
     }
     if (playerChecked === false) {
