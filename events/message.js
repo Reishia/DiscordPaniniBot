@@ -5,7 +5,7 @@ module.exports = async (client, message) => {
   const command = args.shift().toLowerCase();
   const channel = message.guild.channels.find(c => c.name === "logs");
   const max = 5;
-  const min = 0;
+  const min = 1;
   const moneyToAdd = Math.floor(Math.random() * (max - min + 1)) + min;
   let _money = 0;
 
