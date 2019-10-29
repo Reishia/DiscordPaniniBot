@@ -28,7 +28,7 @@ exports.run = (client, message, args) => {
   }
 
   // Détermination du joueur packé
-  const PID = entierAleatoire(1, players.length);
+  const PID = entierAleatoire(0, players.length - 1);
 
   function achat(price) {
     _money = client.money[message.author.id].money;
