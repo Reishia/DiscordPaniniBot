@@ -10,6 +10,7 @@ exports.run = (client, message, args) => {
   client.money = require("../storage/userData.json");
   for (var i = 1; i < client.money[message.author.id].list.length; i++) {
     if (client.money[message.author.id].list[i].id === _id) {
+      const id = client.money[message.author.id].list[i].playerID;
       if (client.money[message.author.id].list[_id].pLeague === 1) { // Allemagne 1
         players = pBu;        
       } else if (client.money[message.author.id].list[_id].pLeague === 4) { // Angleterre 1
@@ -21,9 +22,9 @@ exports.run = (client, message, args) => {
       }
 
       const embed = new MessageEmbed()
-        .setTitle(players[client.money[message.author.id].playerID].name)
-        .addField("Position :", players[client.money[message.author.id].playerID].position)
-        .addField("Club :", players[client.money[message.author.id].playerID].club);
+        .setTitle(players[id].name)
+        .addField("Position :", players[id].position)
+        .addField("Club :", players[id].club);
       message.channel.send(embed);
     }
   }
