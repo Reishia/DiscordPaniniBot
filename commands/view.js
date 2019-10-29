@@ -10,13 +10,13 @@ exports.run = (client, message, args) => {
   client.money = require("../storage/userData.json");
   for (var i = 1; i < client.money[message.author.id].list.length; i++) {
     if (client.money[message.author.id].list[i].id === _id) {
-      if (client.money[message.author.id].list[_id].pLeague === "ALL1") {
+      if (client.money[message.author.id].list[_id].pLeague === 1) { // Allemagne 1
         players = pBu;        
-      } else if (client.money[message.author.id].list[_id].pLeague === "ANG1") {
+      } else if (client.money[message.author.id].list[_id].pLeague === 4) { // Angleterre 1
         players = pPL;
-      } else if (client.money[message.author.id].list[_id].pLeague === "ESP1") {
+      } else if (client.money[message.author.id].list[_id].pLeague === 3) { // Espagne 1
         players = pLL;
-      } else if (client.money[message.author.id].list[_id].pLeague === "ITA1") {
+      } else if (client.money[message.author.id].list[_id].pLeague === 2) { // Italie 1
         players = pSA;
       }
 
