@@ -40,7 +40,6 @@ exports.run = (client, message, args) => {
         .setImage(players[PID].image);
       message.channel.send(embed);
       _money -= price;
-      _list += [PID + 1, playerLeague];
       client.money[message.author.id] = {
         money: _money
       };
