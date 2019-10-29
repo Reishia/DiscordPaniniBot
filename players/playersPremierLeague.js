@@ -65,7 +65,7 @@ var playersPremierLeague = [{
   
   id: "8 ", 
   name: "N.Pépé",
-  age: 210,
+  age: 24,
   position: "MD",
   nation: "Côte d'Ivoire",
   club: "Arsenal",
@@ -141,7 +141,7 @@ var playersPremierLeague = [{
 {
   id: "16", 
   name: "C.Chambers",
-  age: 210,
+  age: 24,
   position: "MDC",
   nation: "Angleterre ",
   club: "Arsenal",
@@ -177,7 +177,7 @@ var playersPremierLeague = [{
 {
   id: "20", 
   name: "H.Bellerin",
-  age: 210,
+  age: 24,
   position: "DD",
   nation: "Espagne",
   club: "Arsenal",
@@ -240,7 +240,7 @@ var playersPremierLeague = [{
 {
   id: "26", 
   name: "M.Macey",
-  age: 210,
+  age: 24,
   position: "GB",
   nation: "Angleterre",
   club: "Arsenal",
