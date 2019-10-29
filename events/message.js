@@ -1,10 +1,10 @@
 const fs = require("fs");
 
-module.exports = async (client, message, member) => {
+module.exports = async (client, message) => {
   const args = message.content.slice(process.env.PREFIX.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
-  const channel = member.guild.channels.find(c => c.name === "logs");
-  const max = 50;
+  const channel = message.guild.channels.find(c => c.name === "logs");
+  const max = 5;
   const min = 0;
   const moneyToAdd = Math.floor(Math.random() * (max - min + 1)) + min;
   let _money = 0;
@@ -19,7 +19,7 @@ module.exports = async (client, message, member) => {
   };
   fs.writeFile("./storage/userData.json", JSON.stringify(client.money, null, null), err => {
     if (err) throw err;
-    channel.send(`${message.author.tag} a reçu ${moneyToAdd} en parlant !`);
+    channel.send(`${message.author.tag} a reçu ${moneyToAdd}$ en parlant !`);
   });
 
   if (message.content.indexOf(process.env.PREFIX) !== 0) return;
