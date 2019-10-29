@@ -9,6 +9,7 @@ exports.run = (client, message, args) => {
   client.money = require("../storage/userData.json");
   let _money = 0;
   let players = [0];
+  let _id = 0;
 
   function entierAleatoire(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -40,9 +41,12 @@ exports.run = (client, message, args) => {
         .setImage(players[PID].image);
       message.channel.send(embed);
       _money -= price;
+      for (var i = 0; i < client.money[message.author.id].list.length - 1; i++) {
+        _id = client.money[message.author.id].list[i].id;
+      }
       client.money[message.author.id] = {
         money: _money,
-        list: client.money[message.author.id].list.push([PID, playerLeague])
+        list: client.money[message.author.id].list.push({ id: _id, playerID: PID, pLeague: playerLeague })
       };
 
       fs.writeFile("./storage/userData.json", JSON.stringify(client.money, null, null), err => {
