@@ -41,7 +41,8 @@ exports.run = (client, message, args) => {
       message.channel.send(embed);
       _money -= price;
       client.money[message.author.id] = {
-        money: _money
+        money: _money,
+        list: client.money[message.author.id].list.push([PID, playerLeague])
       };
 
       fs.writeFile("./storage/userData.json", JSON.stringify(client.money, null, null), err => {
