@@ -299,6 +299,305 @@ var playersPremierLeague = [{
   nation: "Angleterre",
   club: "Arsenal",
   image: "https://cdn.sofifa.org/players/10/20/241864.png"
+},
+{
+  id: "33", 
+  name: "N.Pope",
+  age: 27,
+  position: "GB",
+  nation: "Angleterre",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/203841.png" 
+},
+  
+{
+  id: "34", 
+  name: "M.Lowton",
+  age: 30,
+  position: "DD",
+  nation: "Angleterre",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/199633.png" 
+},
+  
+{
+  id: "35", 
+  name: "J.Tarkowski",
+  age: 26,
+  position: "DCD",
+  nation: "Angleterre",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/202695.png" 
+},  
+{
+  id: "36", 
+  name: "B.Mee",
+  age: 29,
+  position: "DCG",
+  nation: "Angleterre",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/189682.png" 
+},
+{
+  id: "37", 
+  name: "E.Pieters",
+  age: 30,
+  position: "DG",
+  nation: "Pays-Bas",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/178567.png" 
+},  
+{
+  id: "38",
+  name: "M.Gudmundsson",
+  age: 28,
+  position: "MD",
+  nation: "Islande",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/191076.png" 
+},
+{
+  id: "39",
+  name: "A.Westwood",
+  age: 29,
+  position: "MCD",
+  nation: "Angleterre",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/189280.png" 
+},
+{
+  id: "40",
+  name: "J.Cork",
+  age: 30,
+  position: "MCG",
+  nation: "Angleterre",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/169706.png" 
+},
+{
+  id: "41",
+  name: "D.McNeil",
+  age: 19,
+  position: "MG",
+  nation: "Angleterre",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/243282.png" 
+},
+{
+  id: "42",
+  name: "C.Wood",
+  age: 27,
+  position: "AD",
+  nation: "Nouvelle-Zélande",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/192123.png" 
+},
+{
+  id: "43",
+  name: "A.Barnes",
+  age: 27,
+  position: "AG",
+  nation: "Angleterre",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/186905.png" 
+},
+{
+  id: "44",
+  name: "J.Rodriguez",
+  age: 29,
+  position: "BU",
+  nation: "Angleterre",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/169792.png" 
+},
+{
+  id: "45",
+  name: "D.Drinkwater",
+  age: 29,
+  position: "MC",
+  nation: "Angleterre",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/186132.png" 
+},
+{
+  id: "46",
+  name: "R.Brady",
+  age: 27,
+  position: "MG",
+  nation: "Irlande",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/201884.png" 
+},
+{
+  id: "47",
+  name: "J.Hendrick",
+  age: 27,
+  position: "MD",
+  nation: "Irlande",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/200478.png" 
+},
+{
+  id: "48",
+  name: "C.Taylor",
+  age: 25,
+  position: "DG",
+  nation: "Angleterre",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/204760.png" 
+},
+{
+  id: "49",
+  name: "B.Gibson",
+  age: 26,
+  position: "DC",
+  nation: "Angleterre",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/200408.png" 
+},
+{
+  id: "50",
+  name: "J.Hart",
+  age: 32,
+  position: "GB",
+  nation: "Angleterre",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/150724.png" 
+},
+{
+  id: "51",
+  name: "B.Peacock-Farrell",
+  age: 22,
+  position: "GB",
+  nation: "Irlande du nord",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/229091.png" 
+},
+{
+  id: "52",
+  name: "A.Lennon",
+  age: 32,
+  position: "MD",
+  nation: "Angleterre",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/152747.png" 
+},
+{
+  id: "53",
+  name: "M.Vydra",
+  age: 27,
+  position: "MOC",
+  nation: "République Tchèque",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/198331.png" 
+},
+{
+  id: "54",
+  name: "K.Long",
+  age: 28,
+  position: "DC",
+  nation: "Irlande",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/194146.png" 
+},
+{
+  id: "55",
+  name: "P.Bardsley",
+  age: 34,
+  position: "DD",
+  nation: "Écosse",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/163261.png" 
+},
+{
+  id: "56",
+  name: "A.Legzdins",
+  age: 32,
+  position: "GB",
+  nation: "Angleterre",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/182761.png" 
+},
+{
+  id: "57",
+  name: "A.Koiki",
+  age: 19,
+  position: "DG",
+  nation: "Angleterre",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/240786.png" 
+},
+{
+  id: "58",
+  name: "J.Benson",
+  age: 19,
+  position: "MC",
+  nation: "Angleterre",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/247140.png" 
+},
+{
+  id: "59",
+  name: "A.Driscoll-Glennon",
+  age: 19,
+  position: "DG",
+  nation: "Angleterre",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/notfound_0.png" 
+},
+{
+  id: "60",
+  name: "A.Philips",
+  age: 21,
+  position: "MC",
+  nation: "Angleterre",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/224225.png" 
+},
+{
+  id: "61",
+  name: "R.Cooney",
+  age: 19,
+  position: "DD",
+  nation: "Angleterre",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/20/236923.png" 
+},
+{
+  id: "62",
+  name: "R.Harker",
+  age: 19,
+  position: "BU",
+  nation: "Angleterre",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/notfound_0.png" 
+},
+{
+  id: "63",
+  name: "C.N'Guessan",
+  age: 20,
+  position: "MC",
+  nation: "Angleterre",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/notfound_0.png" 
+},
+{
+  id: "64",
+  name: "O.Younger",
+  age: 19,
+  position: "DC",
+  nation: "Angleterre",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/notfound_0.png" 
+},
+{
+  id: "65",
+  name: "O.Bayode",
+  age: 20,
+  position: "MD",
+  nation: "Angleterre ",
+  club: "Burnley",
+  image: "https://cdn.sofifa.org/players/10/notfound_0.png" 
 }];
 
 module.exports = playersPremierLeague;
