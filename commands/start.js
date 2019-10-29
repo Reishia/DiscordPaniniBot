@@ -1,7 +1,6 @@
 const fs = require("fs");
 
 exports.run = (client, message) => { 
-  const channel = message.guild.channels.find(c => c.name === "général");
   client.money = require("../storage/userData.json");
   client.list = require("../storage/userPlayersList.json");
   client.money[message.author.id] = {
@@ -14,7 +13,7 @@ exports.run = (client, message) => {
     
   fs.writeFile("./storage/userData.json", JSON.stringify(client.money, null, null), err => {
     if (err) throw err;
-    channel.send(`Bienvenue sur FootCollection ${message.author}. Je te souhaite bonne chance !`);
+    message.channel.send(`Bienvenue sur FootCollection ${message.author}. Je te souhaite bonne chance !`);
   });
   fs.writeFile("./storage/userPlayersList.json", JSON.stringify(client.list, null, null), err => {
     if (err) throw err;
