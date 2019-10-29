@@ -7,9 +7,7 @@ module.exports = async (client, message) => {
   const max = 5;
   const min = 1;
   const moneyToAdd = Math.floor(Math.random() * (max - min + 1)) + min;
-  let _money = 0;
-
-  client.money = require("../storage/userData.json");
+  let _money = client.money[message.author.id].money;
 
   if (message.author.bot) return;
 
