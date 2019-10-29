@@ -32,6 +32,7 @@ exports.run = (client, message, args) => {
 
   function achat(price) {
     _money = client.money[message.author.id].money;
+    let _list = client.list[message.author.id].list;
     if (_money < price) {
       message.channel.send(`Vous n'avez pas assez d'argent, vous n'en avez que ${_money}.`);
     } else {
@@ -41,13 +42,21 @@ exports.run = (client, message, args) => {
         .setImage(players[PID].image);
       message.channel.send(embed);
       _money -= price;
+      _list += [PID + 1, playerLeague];
       client.money[message.author.id] = {
         money: _money
+      };
+      client.list[message.author.id] = {
+        list: _list
       };
 
       fs.writeFile("./storage/userData.json", JSON.stringify(client.money, null, null), err => {
         if (err) throw err;
         message.channel.send(`${price}$ vous ont été débité ! Vous avez maintenant ${_money}$`);
+      });
+      fs.writeFile("./storage/userPlayersList.json", JSON.stringify(client.list, null, null), err => {
+        if (err) throw err;
+        message.channel.send(`Joueur ajouté à la base de données de ${message.author.tag}`);
       });
     }
   }
