@@ -5,7 +5,7 @@ exports.run = (client, message) => {
   client.money[message.author.id] = {
     money: 0,
     lastDaily: "None",
-    list: []
+    list: [0]
   };
     
   fs.writeFile("./storage/userData.json", JSON.stringify(client.money, null, null), err => {
