@@ -3,7 +3,7 @@ const fs = require("fs");
 module.exports = async (client, message, member) => {
   const args = message.content.slice(process.env.PREFIX.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
-  const channel = member.guild.channels.find("name", "logs");
+  const channel = member.guild.channels.find(c => c.name === "logs");
   const max = 50;
   const min = 0;
   const moneyToAdd = Math.floor(Math.random() * (max - min + 1)) + min;
