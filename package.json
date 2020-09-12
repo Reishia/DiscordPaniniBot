@@ -13,7 +13,7 @@
     "discord.js": "discordjs/discord.js",
     "moment": "^2.24.0",
     "mongoose": "^5.6.4",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "eslint": "^6.0.1",
